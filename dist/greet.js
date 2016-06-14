@@ -1,5 +1,5 @@
 "use strict";
 function sayHello(name) {
-    return 'Hello from ' + name;
+    return 'Hello deivit from ' + name;
 }
 exports.sayHello = sayHello;

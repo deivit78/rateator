@@ -1,7 +1,10 @@
 {
     "files": [
+        "src/typings/node.d.ts",
         "src/main.ts",
-        "src/greet.ts"
+        "src/greet.ts",
+        "src/metadata/main.ts",
+        "src/config/main.ts"
     ],        "compilerOptions": {
         "outDir": "./dist/",
         "sourceMap": true,        

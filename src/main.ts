@@ -1,2 +1,2 @@
-import {sayHello} from "./greet";
-console.log(sayHello("EoEo!!"));
+import {Settings} from "./config/main";
+
