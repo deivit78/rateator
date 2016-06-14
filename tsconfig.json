@@ -1,0 +1,10 @@
+{
+    "files": [
+        "src/main.ts",
+        "src/greet.ts"
+    ],        "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,        
+        "target": "es5"        
+    }    
+}

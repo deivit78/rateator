@@ -1,0 +1,17 @@
+{
+  "name": "prueba_javascript",
+  "version": "1.0.0",
+  "description": "Es una prueba de typescript para ver como fucniona",
+  "main": "./dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^2.13.6",
+    "gulp-util": "^3.0.7",
+    "webpack": "^1.13.1"
+  }
+}
