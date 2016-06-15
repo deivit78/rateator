@@ -1,11 +1,15 @@
 /// <reference path="../typings/node.d.ts" />
-import fs = require('fs');
+var fs = require('fs');
+var PropertiesReader = require('properties-reader');
+
 export class Settings{
-    private fileContent:string;
+    private mongoServer:string;
+    private mongoPort:string;
+    
     constructor(public pathSettings:string){
-         fs.readFileSync(pathSettings,(err,buf)=>{
-             this.fileContent = buf;
-             console.log(this.fileContent);
-         });               
+         let properties = PropertiesReader(pathSettings);
+         this.mongoServer = properties.get('mongo.server');
+         this.mongoPort = properties.get('mongo.port');         
+         console.log("Mongo Connection: "+this.mongoServer+":"+this.mongoPort);         
     }    
 }

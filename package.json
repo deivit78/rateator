@@ -12,6 +12,12 @@
     "gulp": "^3.9.1",
     "gulp-typescript": "^2.13.6",
     "gulp-util": "^3.0.7",
-    "webpack": "^1.13.1"
+    "properties-reader": "0.0.15",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-stream": "^3.2.0"
+  },
+  "dependencies": {
+    "ts-loader": "^0.8.2"
   }
 }

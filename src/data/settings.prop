@@ -1,0 +1,7 @@
+# Metadata configuration properties.
+
+[mongo]
+server = 192.168.1.1
+port = 1456
+
+

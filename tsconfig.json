@@ -1,11 +1,11 @@
 {
     "files": [
         "src/typings/node.d.ts",
-        "src/main.ts",
-        "src/greet.ts",
+        "src/main.ts",        
         "src/metadata/main.ts",
         "src/config/main.ts"
-    ],        "compilerOptions": {
+    ],        
+    "compilerOptions": {
         "outDir": "./dist/",
         "sourceMap": true,        
         "target": "es5"        
