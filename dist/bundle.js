@@ -45,8 +45,8 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
-	var main_1 = __webpack_require__(1);
-	var settings = new main_1.Settings("settings.prop");
+	var settings_1 = __webpack_require__(1);
+	var settings = new settings_1.Settings("settings.prop");
 
 
 /***/ },
@@ -61,9 +61,9 @@
 	    function Settings(pathSettings) {
 	        this.pathSettings = pathSettings;
 	        var properties = PropertiesReader(pathSettings);
-	        this.mongoServer = properties.get('mongo.server');
-	        this.mongoPort = properties.get('mongo.port');
-	        console.log("Mongo Connection: " + this.mongoServer + ":" + this.mongoPort);
+	        this.serverPort = properties.get('mongo.port');
+	        this.serverName = properties.get('mongo.server');
+	        console.log("Mongo Connection: " + this.serverPort + ":" + this.serverName);
 	    }
 	    return Settings;
 	}());

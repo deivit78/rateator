@@ -1,9 +1,9 @@
 {
     "files": [
         "src/typings/node.d.ts",
-        "src/main.ts",        
-        "src/metadata/main.ts",
-        "src/config/main.ts"
+        "src/main.ts",
+        "src/metadata/settings.ts",        
+        "src/metadata/main.ts"
     ],        
     "compilerOptions": {
         "outDir": "./dist/",

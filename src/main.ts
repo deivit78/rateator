@@ -1,5 +1,4 @@
-import {Settings} from "./config/main";
-
+import {Settings} from "./metadata/settings";
 var settings = new Settings("settings.prop")
 
 
